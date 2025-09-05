@@ -1,0 +1,13 @@
+*.jpg
+*.jpeg
+*.png
+/data/
+*.csv
+*.pkl
+*.h5
+__pycache__/
+
+*.tgz
+*.tar
+*.tar.gz
+*.zip
