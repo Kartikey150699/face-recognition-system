@@ -1,13 +1,35 @@
+# Image files
 *.jpg
 *.jpeg
 *.png
+
+# Data files
 /data/
 *.csv
 *.pkl
 *.h5
-__pycache__/
 
+# Python cache
+__pycache__/
+*.pyc
+
+# Archives
 *.tgz
 *.tar
 *.tar.gz
 *.zip
+
+# TensorFlow / Keras checkpoints
+checkpoint
+*.ckpt
+*.ckpt.*
+*.index
+*.data-00000-of-00001
+
+# Saved models
+saved_model/
+*.pb
+*.tflite
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
